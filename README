@@ -1,0 +1,17 @@
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
+Install plugins as submodulesWith pathogen installed, it’s now possible to keep the files for 
+each plugin together, which means that every plugin can be kept in its own git repository. 
+The best way to do this is to use git submodules, which are designed especially for the purpose 
+of keeping git repositories within a git repository.To install the fugitive plugin as a git submodule, 
+take the following steps:
+cd ~/.vim
+mkdir ~/.vim/bundle
+git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+git add .
+git commit -m "Install Fugitive.vim bundle as a submodule."
+
+Instead, we're here using a generic addons folder since we want to add on to tmux and bash and other 
+places as well and track it and store the config and make it portable across machines ! 
+
+
