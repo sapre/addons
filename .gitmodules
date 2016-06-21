@@ -10,3 +10,6 @@
 [submodule "bash/bash-git-prompt"]
 	path = bash/bash-git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt.git
+[submodule "veriperl/Verilog-Perl"]
+	path = veriperl/Verilog-Perl
+	url = http://git.veripool.org/git/Verilog-Perl
